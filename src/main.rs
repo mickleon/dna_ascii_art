@@ -5,7 +5,8 @@ const STEP: f64 = 0.3;
 const OFFSET: i32 = 12;
 const LENGHT: i32 = 40;
 
-const BASE: &str = "-"; 
+const BASE: &str = "=";
+// const BASE: &str = "-";
 const SPIRAL: &str = "@@";
 
 fn main() {
