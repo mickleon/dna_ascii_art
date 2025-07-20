@@ -12,6 +12,6 @@ fn main() {
         if left > right {
             swap(&mut left, &mut right);
         }
-        println!("{}0{}0", " ".repeat(left), " ".repeat(right - left));
+        println!("{}0{}0", " ".repeat(left), "-".repeat(right - left));
     }
 }
